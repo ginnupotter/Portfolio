@@ -1,0 +1,30 @@
+<html>
+<head>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="./script.js" defer></script>
+<style>
+  .square {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+  }
+
+  .circle {
+    fill: rgb(163, 163, 248);
+    stroke: black;
+  }
+
+  .label {
+    fill: rgb(29, 23, 23);
+    font-family: Arial;
+    font-size: 12px;
+    text-anchor: middle;
+    dominant-baseline: central;
+  }
+</style>
+</head>
+<body>
+<div class="square" id="square"></div>
+<input type="file" id="file" accept=".csv" >
+</body>
+</html>
